@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cocon — Politique de confidentialité</title>
+<style>
+  :root {
+    color-scheme: light;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: #f7f2f0;
+    color: #2b2b2b;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 24px 64px;
+  }
+  h1 {
+    color: #632929;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: #6b6b6b;
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 0.9em;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px 28px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+  h2 {
+    color: #692b2b;
+    margin-top: 32px;
+  }
+  h2:first-child {
+    margin-top: 0;
+  }
+  p, li {
+    margin: 0 0 12px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  a {
+    color: #692b2b;
+    font-weight: 600;
+  }
+  strong {
+    color: #632929;
+  }
+  footer {
+    margin-top: 32px;
+    font-size: 0.85em;
+    color: #8a8a8a;
+    text-align: center;
+  }
+  footer a {
+    color: #8a8a8a;
+    font-weight: normal;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Politique de confidentialité</h1>
+  <p class="updated">Dernière mise à jour : septembre 2026 — Application Cocon</p>
+
+  <div class="card">
+    <h2>Quelles données sont collectées</h2>
+    <ul>
+      <li><strong>Adresse email</strong>, via la connexion Google Sign-In, pour identifier votre compte et le relier à celui de votre partenaire.</li>
+      <li><strong>Un jeton technique de notification</strong> (FCM token), utilisé uniquement pour vous envoyer les notifications push de l'application.</li>
+      <li><strong>Le contenu que vous partagez avec votre partenaire</strong> : messages, souvenirs, réponses aux jeux, ainsi que les <strong>photos</strong> envoyées dans le chat, les souvenirs et les jeux photo.</li>
+    </ul>
+    <p>Ce contenu — texte comme photos — est <strong>chiffré de bout en bout (AES-256-GCM)</strong> directement sur votre appareil avant tout envoi vers nos serveurs (Firebase). La clé de chiffrement ne quitte jamais vos appareils et ne transite jamais vers nos serveurs en clair. Concrètement, <strong>même l'éditeur de l'application n'a pas la capacité technique de lire vos messages, souvenirs ou photos.</strong></p>
+
+    <h2>Authentification biométrique</h2>
+    <p>Si vous activez le verrouillage de l'application par Face ID ou empreinte digitale, cette vérification est effectuée <strong>entièrement par le système d'exploitation de votre appareil</strong> (iOS ou Android). Vos données biométriques ne sont à aucun moment transmises, transférées ou stockées par l'application Cocon ou par ses serveurs.</p>
+
+    <h2>Comment ces données sont utilisées</h2>
+    <p>Les données collectées servent exclusivement au fonctionnement de l'application : authentification, synchronisation du contenu entre les deux membres du couple, et envoi des notifications. Elles ne sont <strong>ni revendues, ni partagées avec des tiers</strong>, ni utilisées à des fins publicitaires.</p>
+
+    <h2>Où sont hébergées les données</h2>
+    <p>Les données sont hébergées sur l'infrastructure Google Firebase (Cloud Firestore et Cloud Storage), au sein de l'Union européenne.</p>
+
+    <h2>Suppression de vos données</h2>
+    <p>Vous pouvez supprimer votre compte et l'ensemble du contenu associé directement depuis l'application, dans les Réglages. Cette action est définitive. Pour toute assistance dans cette démarche, vous pouvez également nous contacter par email.</p>
+
+    <h2>Contact</h2>
+    <p>Pour toute question relative à cette politique de confidentialité ou à vos données personnelles : <a href="mailto:x.appstudio@gmail.com">x.appstudio@gmail.com</a></p>
+  </div>
+
+  <footer>
+    <a href="index.html">Retour à la page de support</a>
+  </footer>
+</main>
+</body>
+</html>
